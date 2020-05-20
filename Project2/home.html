@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<title>Project2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1300px">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {margin:0;}
+
+ /* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a green background color to the active link */
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+    display: none;
+} 
+</style>
+</head>
+<body>
+
+</style>
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <img src="Logo.jpg" class="w3-margin w3-square" alt="Person" style="width:50%">
+    </div>
+    <div class="w3-padding-8">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+	  <a href="#My Audio Gear" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Audio Gear</a>
+      <a href="#My Work Experience" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work Experience</a>
+      <a href="#Portfolio" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Portfolio</a>
+	  <a href="#Contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+	  <a href="#Social Media Feed" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Social Media Feed</a>
+   
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+      <img src="photo.jpg" class="w3-margin w3-circle" alt="Person" style="width:70%">
+      <div class="w3-left-align w3-padding-large">
+        <p>My name is Lorenzo Quiroga. I'm an Audio Engineer with experience in Broadcast Media and Audio Prodcution. I developed interest in this 
+		area since High School back in Chile when I was in the HS Music Band. I came back to USA for school. I studied at Ohio University between 2009-2013. 
+		I am currently based in Columbus, Ohio</p>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Second Grid: Audio Gear -->
+<div class="w3-row">
+  <div class="w3-green w3-center" style="min-height:800px" id="My Audio Gear">
+    <div class="w3-padding-16">
+      <h2>My Audio Gear</h2>
+	  
+	  
+       <div class="row">
+	  
+  <div class="column">
+    <h3>Hardware</h3>
+    <p>- Mac Book Pro, 2.7GHz quad‑core, 
+	8th‑generation Intel Core i7 processor, 
+	Turbo Boost up to 4.5GHz,
+    Retina display with True Tone,
+    Touch Bar and Touch ID,
+    Intel Iris Plus Graphics 655,
+    16GB 2133MHz LPDDR3 memory,
+    1TB SSD storage,
+    Four Thunderbolt 3 ports,
+    Backlit Keyboard US English.</p>
+	
+    <p>- PCAudioLab
+	Case: Extended 4U Secure Chassis, 
+    CPU: 2 - Intel Xeon 5-2620 V4 2.1 GHz 8 Cores,
+    Intel C612 Class Motherboard,
+    RAM: 16GB Dual-Channel DDR4 2400,
+    OS Drive: 240GB SSD,
+    Audio Drive: 1TB 7200 RPM,
+    Sample/Data Drive: 1TB 7200 RPM,
+    Windows 10 Professional 64 Bit,
+    Graphics: 1GB Dual Display,
+    Optional: 24X CD-R/DVD-R Optical,
+    Optional: Thunderbolt 3,
+    Ethernet: 10/100/1000Mbps,
+    1000W 80 PLUS Power Supply.</p>
+	
+	</div>
+	
+  <div class="column">
+  <h3>Cont. of Hardware</h3>
+  <p>-V7 L23600WHS-9N - 24" LED Display Monitors(2).</p>
+	<p>-PreSonus Studio 1810 USB Audio Interface.</p>
+	<p>-Focusrite Clarett 8Pre X 26x28 Thunderbolt Audio Interface</p>
+  <h3>Software</h3>
+	<p>-Final Cut Pro X</p>
+    <p>-Logic Pro X</p>
+	<p>-Pro Tools 12</p>
+	<p>-Adobe Creative Cloud</p>
+	</div>
+  <div class="column">
+  <h3>Microphones</h3>
+  <p>-Rode NT1A x 4</p>
+  <p>Shure SM7B</p>
+  <p>Sennheiser MD421</p>
+  <p>Royer 101 Matched Pair</p>
+   <p>Shure SM57</p>
+   <p>Sennheiser MD421 II</p>
+   <p>AKG C414 pair</p> 
+   <p>Shure Beta52A</p>
+   <p>Blue Microphones Bluebird x 2</p>
+  </div>
+  </div>
+</div>  
+</div>
+
+
+
+ <div class="navbar">
+ 
+  <a href="#">Home</a>
+  <a href="#My Audio Gear">My Audio Gear</a>
+  <a href="#My Work Experience">My Work Experience</a>
+  <a href="#Portfolio">Portfolio</a>
+  <a href="#Contact">Contact</a>
+  <a href="#Social Media Feed">Social Media Feed</a>
+</div>
+
+<!-- Third Grid: My Work Experience -->
+ <div class="w3-indigo w3-container" style="min-height:800px" id="My Work Experience">
+    <div class="w3-padding-16 w3-center">
+      <h2>My Work Experience</h2>
+      <p>Higlights of My Resume</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2014-Current</td>
+            <td>Audio Freelance at Markey's Stage and Rental</td>
+            <td>Columbus, Ohio</td>
+          </tr>
+          <tr>
+            <td>2009-2012</td>
+            <td>Audio Technician at Smokestack Productions</td>
+            <td>Lancaster, Ohio</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2012-2103</td>
+            <td>Board Operator at WXTQ/WATH Radio Station</td>
+            <td>Athens, Ohio</td>
+          </tr>
+          <tr>
+            <td>2012-2013</td>
+            <td>Student Master Control at WOUB</td>
+            <td>Athens, Ohio</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2009-2013</td>
+            <td>Bachelor Degree in Audio/Music Production</td>
+            <td>Ohio University, Athens, Ohio</td>
+          </tr>
+          <tr class="w3-hide-medium">
+            <td>2009-2012</td>
+            <td>Associate Degree in Electronic Media </td>
+            <td>Ohio Univeristy-Lancaster Campus, Lancaster, Ohio</td>
+          </tr>
+        </table>
+		
+		<p>This is a highlight of my work that includes my transiction from School to Entry Level Position. If you want to check my detailed resume, please, 
+		feel free to check  <a href="https://www.linkedin.com/in/lorenzo-quiroga-29538b70/"> My LinkedIN Page</a></p>
+    
+
+
+	  </div>
+    </div>
+  </div>
+
+ <div class="navbar">
+ 
+  <a href="#">Home</a>
+  <a href="#My Audio Gear">My Audio Gear</a>
+  <a href="#My Work Experience">My Work Experience</a>
+  <a href="#Portfolio">Portfolio</a>
+  <a href="#Contact">Contact</a>
+  <a href="#Social Media Feed">Social Media Feed</a>
+</div>
+
+
+<!-- Fourth Grid: Portfolio -->
+
+<div class="w3-row" id="contact">
+  <div class="w3-dark-grey w3-container w3-center" style="height:700px" id="Portfolio">
+    <div class="w3-padding-16">
+      <h1>Portfolio</h1>
+	  <br>
+	  
+	  <audio src="Jazz Final Project.mp3" controls></audio>
+
+<p align="left"><b>Note: This was my Final Audio/Production Project for my Final Class at Ohio University in 2013. I used the Main Recording Studio at Ohio University. 
+Thanks to: Will Foster, Nick Rose-Stamey, Mike Driscoll, Ryan Friebertshauser and Prof. Eddie Ashworth.</b> </p>
+
+ <br>
+	  
+	  <audio src="WATH 8-18-13 final shift.mp3" controls></audio>
+	  
+	  <p align="left"><b>Note: This was my final shift as DJ at WATH AM Station in Athens, Ohio. Circa August of 2013.</b></p>
+	  
+	 <br>
+
+<audio src="DemoradioSpanish.mp3" controls></audio>
+	  
+<p align="left"><b>Note: This is a demo for Radio Show in Spanish that I used for consideration to ACRN College Radio Station. 
+	  It's about Latin American Rock Music.
+
+    </div>
+    
+  </div>
+ <div class="navbar">
+ 
+  <a href="#">Home</a>
+  <a href="#My Audio Gear">My Audio Gear</a>
+  <a href="#My Work Experience">My Work Experience</a>
+  <a href="#Portfolio">Portfolio</a>
+  <a href="#Contact">Contact</a>
+  <a href="#Social Media Feed">Social Media Feed</a>
+</div>
+   
+   <!-- Fifth Grid: Contact and Social Media Feed -->
+   
+     <div class="w3-row" id="Contact">
+  <div class="w3-half w3-light-blue w3-container w3-center" style="height:700px">
+    <div class="w3-padding-16">
+	<h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-left-align w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container w3-center" style="height:700px" id="Social Media Feed">
+    <div class="w3-padding-16 w3-padding-large">
+       <h1>Social Media Feed</h1>
+    </div>
+<br><br>
+   
+<!-- InstaWidget -->
+<a href="https://instawidget.net/v/user/loloquai" id="link-ad57e1b075dca4e5ff89b2445f38d6a7dbde64d9c70389dfded6c1ffb9a029da">@loloquai</a>
+<script src="https://instawidget.net/js/instawidget.js?u=ad57e1b075dca4e5ff89b2445f38d6a7dbde64d9c70389dfded6c1ffb9a029da&width=300px"></script>
+    
+  </div>
+ </div>
+ <div class="navbar">
+ 
+  <a href="#">Home</a>
+  <a href="#My Audio Gear">My Audio Gear</a>
+  <a href="#My Work Experience">My Work Experience</a>
+  <a href="#Portfolio">Portfolio</a>
+  <a href="#Contact">Contact</a>
+  <a href="#Social Media Feed">Social Media Feed</a>
+</div>
+
+ 
+</body>
+</html>
+
+ 
